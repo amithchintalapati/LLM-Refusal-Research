@@ -1,0 +1,23 @@
+# Core deep-learning stack
+# torch version depends on your CUDA version; see https://pytorch.org/get-started/locally/
+torch>=2.0.0
+transformers==4.44.2
+accelerate>=0.26.0
+einops>=0.7.0
+
+# Qwen-1.8B-Chat requires these two extra packages
+tiktoken==0.7.0
+transformers_stream_generator
+
+# Data
+datasets>=2.20.0
+
+# Visualisation
+matplotlib>=3.9.0
+seaborn>=0.13.2
+numpy>=1.26.0
+
+# Notebooks
+tqdm>=4.66.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
