@@ -34,7 +34,7 @@ Replicates the core finding of Arditi et al. on Qwen-1.8B-Chat:
 3. Demonstrates that ablating the direction bypasses refusal on harmful prompts
 4. Demonstrates that adding the direction induces refusal on harmless prompts
 
-**Run on Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+**Run on Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/11r96tlft9SIIvH-cZqWmgwxPKJCk-de2/view?usp=sharing)
 
 ### `02_geometry_of_refusal.ipynb`
 Extends the replication to test the geometric structure of refusal:
@@ -44,7 +44,7 @@ Extends the replication to test the geometric structure of refusal:
 4. Measures pairwise cosine similarity between all category directions
 5. Runs cross-category ablation transfer to test whether directions generalize
 
-**Run on Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+**Run on Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1P6GHkMKBGdTtpz600ZXnd5oejRdI9_Lu/view?usp=sharing)
 
 ## Data
 
