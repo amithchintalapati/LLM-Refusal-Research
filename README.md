@@ -1,6 +1,6 @@
 # The Geometry of Refusal in LLMs
 
-**Amith Chintalapati, Cole, Johny, VJ**
+**Amith Chintalapati, Johny Eskandar, Viraaj Singh, Cole Heutten**
 
 This repository contains the code for our final project investigating the 
 geometric structure of refusal behavior in large language models. We build 
