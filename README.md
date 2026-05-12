@@ -77,6 +77,8 @@ All figures are in the `blog_figures/` folder.
 
 Each notebook takes approximately 10 minutes to run on a T4 GPU.
 
+## Requirements
+
 Install dependencies with:
 
 ```bash
