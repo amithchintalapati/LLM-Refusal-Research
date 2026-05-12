@@ -78,16 +78,17 @@ All figures are in the `blog_figures/` folder.
 Each notebook takes approximately 10 minutes to run on a T4 GPU.
 
 ## Requirements
-transformers==4.44.2
-tiktoken==0.7.0
-accelerate
-einops
-transformers_stream_generator
-datasets
-torch
-pandas
-seaborn
-matplotlib
+
+- `transformers==4.44.2`
+- `tiktoken==0.7.0`
+- `accelerate`
+- `einops`
+- `transformers_stream_generator`
+- `datasets`
+- `torch`
+- `pandas`
+- `seaborn`
+- `matplotlib`
 
 ## References
 
