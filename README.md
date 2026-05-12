@@ -64,6 +64,8 @@ All figures are in the `blog_figures/` folder.
 | `layer_selection.png` | Refusal score drop when ablating each layer's direction. Red bar = selected layer (14). | `01_refusal_direction_replication.ipynb` — cell 13 |
 | `cosine_similarity.png` | Pairwise cosine similarity between per-category refusal directions. | `02_geometry_of_refusal.ipynb` — cell 15 |
 | `bypass_rate.png` | Cross-category ablation transfer — bypass rate when ablating domain A's direction on domain B's prompts. | `02_geometry_of_refusal.ipynb` — cell 18 |
+| `baseline_refusal_rates.png` | Baseline refusal rate per SorryBench policy domain before any intervention. Shows Inappropriate and Advice are refused less often than HateSpeech and CrimeAssistance. | `02_geometry_of_refusal.ipynb` — "Baseline Refusal Rate" section |
+| `addition_coefficients.png` | Smallest steering coefficient needed to induce refusal on each harmless prompt by adding the global refusal direction. | `02_geometry_of_refusal.ipynb` — "Addition Induces Refusal" section |
 
 ## How to Run
 
