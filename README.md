@@ -77,18 +77,21 @@ All figures are in the `blog_figures/` folder.
 
 Each notebook takes approximately 10 minutes to run on a T4 GPU.
 
-## Requirements
+Install dependencies with:
 
-- `transformers==4.44.2`
-- `tiktoken==0.7.0`
-- `accelerate`
-- `einops`
-- `transformers_stream_generator`
-- `datasets`
-- `torch`
-- `pandas`
-- `seaborn`
-- `matplotlib`
+```bash
+pip install -r requirements.txt
+```
+
+Or manually install the core packages:
+
+```bash
+pip install transformers==4.44.2 tiktoken==0.7.0 accelerate einops transformers_stream_generator datasets torch pandas seaborn matplotlib
+```
+
+Note: these notebooks are designed to run on Google Colab with a GPU. 
+Running locally requires a CUDA-capable GPU or Apple Silicon Mac with 
+at least 8GB of memory.
 
 ## References
 
