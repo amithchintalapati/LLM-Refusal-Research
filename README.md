@@ -88,7 +88,7 @@ pip install -r requirements.txt
 Or manually install the core packages:
 
 ```bash
-pip install transformers==4.44.2 tiktoken==0.7.0 accelerate einops transformers_stream_generator datasets torch pandas seaborn matplotlib
+pip install transformers==4.44.2 tiktoken==0.7.0 accelerate einops transformers_stream_generator datasets torch pandas seaborn matplotlib tqdm
 ```
 
 Note: these notebooks are designed to run on Google Colab with a GPU. 
